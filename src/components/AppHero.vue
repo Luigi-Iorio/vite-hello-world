@@ -1,7 +1,7 @@
 <script>
-export default{
-    data(){
-        return{
+export default {
+    data() {
+        return {
             text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit sequi et repudiandae nam vero corporis error obcaecati tempore voluptates ex doloremque perferendis itaque soluta ratione omnis iste, excepturi minima consectetur."
         }
     }
@@ -14,7 +14,7 @@ export default{
 </template>
 
 <style scoped>
-button{
+button {
     padding: 10px 20px;
     background-color: rgb(11, 109, 77);
     border: none;
@@ -22,7 +22,7 @@ button{
     transition: 0.4s;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
     background-color: rgb(8, 72, 51);
 }

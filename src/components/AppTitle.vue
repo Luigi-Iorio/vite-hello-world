@@ -1,7 +1,7 @@
 <script>
-export default{
-    data(){
-        return{
+export default {
+    data() {
+        return {
             title: "La mia prima app con Vite!"
         }
     },
@@ -12,5 +12,4 @@ export default{
     <h1>{{ title }}</h1>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
